@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+sma.al is a URL shortening application made with ruby on rails framework.
 
-Things you may want to cover:
+- Ruby version - 2.5.5
 
-* Ruby version
+- Database used for development : sqlite3
 
-* System dependencies
+- Database used for production : postgresql
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Rails version - 6.0.0
