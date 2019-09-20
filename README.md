@@ -1,4 +1,4 @@
-# README
+# SMA.AL
 
 sma.al is a URL shortening application made with ruby on rails framework.
 
