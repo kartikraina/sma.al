@@ -1,16 +1,12 @@
 <head>
-  <style>
-    #submit{
-      background:pink;
-      border:1px solid transparent;
-      height:50px;
-    }
-  </style>
+  <link rel='stylesheet' href="assets/stylesheets/custom.scss">
 </head>
-  <h1>SMA.AL</h1>
-  <p> Enter the URL you would like shortened:</p>
+<div class="ramu">
+  <h1 class="heading">sma.al</h1>
+  <p class="random"> Enter the URL you would like shortened:</p>
   <%= form_for Link.new, url: '/link' do |t| %>
-    <%= t.text_area :original_url %>
+    <%= t.text_field :original_url, class: 'sumit'%>
     <button id='submit'>make it Sma.al</button>
   <% end %>
+  </div>
 </html>
