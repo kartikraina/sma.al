@@ -1,12 +1,12 @@
 class LinkController < ApplicationController
-  
+
   def index
   end
 
   def show
     @link = Link.find(params[:id])
     url_extension = (@link.id+9999999999).to_s(36)
-    @short_url = "https://sma-al.herokuapp.com/#{url_extension}"
+    @short_url = "http://localhost:3000/#{url_extension}"
   end
 
   def create
