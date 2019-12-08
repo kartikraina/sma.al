@@ -1,9 +1,12 @@
 <div class="ramu">
-  <h1 class="heading">sma.al</h1>
-  <p class="random"> Enter the URL you would like shortened:</p>
-  <%= form_for Link.new, url: '/link' do |t| %>
-    <%= t.text_field :original_url, class: 'sumit'%>
-    <button id='submit'>make it Sma.al</button>
+  <div class="hey"><h1> SMA.AL </h1></div><br><br><br>
+<div id="box-container">
+  <div class="random box-1"> Enter the URL you would like shortened:&nbsp;&nbsp;</div>
+ <div id="box-2"><%= form_for Link.new, url: '/link' do |t| %>
+ 
+    <%= t.text_field :original_url, placeholder: "https://www.yourwebsite.com/link/", class: "sumit"%>&nbsp;&nbsp;
+    <button id='submit'>make it Sma.al</button> </div>
+</div>
   <% end %>
   </div>
 </html>

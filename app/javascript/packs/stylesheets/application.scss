@@ -1,0 +1,117 @@
+ @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
+ @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+ @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+  .logo {                             //navbar logo
+  font-size: 1.7em;
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.cuscont {
+  margin-left: 5px;
+}
+.ramu {
+  text-align: center;
+}
+.random {
+  color:#000000;
+  font-size: 1.7em;
+   display: inline-block;
+  // background-color: #ffffff;
+}
+#submit {
+  font-size: 1.5em;
+background: transparent;
+  border: 2px black solid;
+  cursor: pointer;
+  color:#000000;
+}
+#submit:hover{
+  background-color: #000000;
+color: #ffffff;
+  
+}
+.sumit {
+  font-size: 1.5em;
+  width:800px;
+  color: #4f81ff;
+  //background-color:#adadad;
+}
+.link {
+  text-decoration: none;
+  padding: 0px;
+}
+.link:hover {
+  font-size: 2rem;
+  color: black;
+}
+
+
+
+body {
+	//font-family: "Roboto", Arial, sans-serif;
+	//font-family: "Oswald", sans-serif;
+	  font-family: "Luckiest Guy", cursive;
+	min-height: 100vh;
+	background-image: url("https://wallpapercave.com/wp/PQ2vgJK.jpg");
+	
+}
+
+header {
+	width: 100%;
+}
+
+h1 { 
+  //customize main heading on homepage
+	font-size: calc(3.8em);
+	font-weight: 600;
+	letter-spacing: .01em;
+	text-shadow: .022em .022em .022em #111;
+	color: #4f81ff;
+	text-align: center;             //center align headings
+}
+.head2{                             //customize webpage headings
+  	font-size: calc(2.0em + 1.8vw);
+	font-weight: 700;
+	letter-spacing: .01em;
+	text-shadow: .022em .022em .022em #111;
+	color: #000;
+        //center align headings
+}
+.hey{
+ display: inline-block;
+text-align:center;
+}
+.box-2{
+display:flex;
+justify-content:center;
+}
+#box-container{
+  //display:flex;
+  //margin-left:50px;
+}
+.disp{
+    font-size: 1.5em;
+  color: #4f81ff;
+  display:inline-block;
+}
+.disp:hover{
+  color:#ffffff;
+  background-color:#4f81ff;
+}
+.back{
+      font-size: 1.5em;
+  color: #4f81ff;
+  display:inline-block;
+}
+.back:hover{
+    color:#ffffff;
+  background-color:#4f81ff;
+}
+.container{
+  background-color: #ffffff;
+background-image:url("https://st.depositphotos.com/1811713/4263/i/950/depositphotos_42635413-stock-photo-yellow-handmade-rough-surface-background.jpg");
+
+}

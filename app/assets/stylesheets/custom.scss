@@ -28,3 +28,36 @@
   font-size: 2rem;
   color: black;
 }
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	min-height: 100vh;
+	background-color: #101010;
+}
+
+header {
+	width: 100%;
+}
+
+h1 {                                  //customize main heading on homepage
+	font-size: calc(2.8em + 2.6vw);
+	font-weight: 700;
+	letter-spacing: .01em;
+	padding: 5rem 0 0 4.5rem;
+	text-shadow: .022em .022em .022em #111;
+	color: #000;
+	text-align: center;             //center align headings
+}
+.head2{                             //customize webpage headings
+  	font-size: calc(2.0em + 1.8vw);
+	font-weight: 700;
+	letter-spacing: .01em;
+	text-shadow: .022em .022em .022em #111;
+	color: #000;
+	text-align: center;        //center align headings
+}
+.contain{
+  background: white;
+}
